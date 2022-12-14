@@ -18,7 +18,7 @@ parser.add_argument('--path_indices', type=str, default='./data_indices')
 parser.add_argument('--mode', type=str, default='total', choices=['total','train','eval','test'], help="evaluation mode.")
 # classifier hyperparams
 parser.add_argument('--subset', type=int, default=1250)
-parser.add_argument('--factor', type=float, default=2.5)
+parser.add_argument('--factor', type=float, default=2.0)
 parser.add_argument('--thresh', type=float, default=9)
 parser.add_argument('--method', type=str, default='interval')
 parser.add_argument('--ensemble', action="store_true", help="ensemble pred")
@@ -41,11 +41,14 @@ def main():
     method = args.method
     subset = args.subset
     tqdm_ = args.tqdm_
-    # ensemble method: search your combination of factor & threshold params with param_search.py
-    factor =    [1.5,   1.75, 2.0,   2.25, 2.5]
-    threshold = [9.191, 9.21, 9.263, 9.157, 9.154]
-    factor = [1.5]
-    threshold = [9.191]
+
+    # ensemble method: optionally define the decision boundaries 
+    if args.ensemble:
+        factor =    [1.5, 1.75, 2.0, 2.25, 2.5]
+        threshold = [9.191, 9.21, 9.263, 9.157, 9.154]
+    else:
+        factor = [args.factor]
+        threshold = [args.thresh]
     peak_based_eval(dataloader, factor, method, threshold, subset, tqdm_)
 
 def reject_outliers(data, m = 2.):
