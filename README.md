@@ -1,8 +1,7 @@
 # Code for the ACM/IEEE TinyML Contest at ICCAD 2022
 
-
-
-
+## Introduction
+This repository provides the code for **TinyML** algorithm deployed on low-end microcontrollers that detects life-threatening ventricular arrhythmias (VA) as part of the [2022 ACM/IEEE ICCAD TinyML Contest](https://tinymlcontest.github.io/TinyML-Design-Contest/index.html). Our approach won **1st place** in the Flash Ocupation Track and **3rd** place on the overall score. See the full list of submissions [here](https://tinymlcontest.github.io/TinyML-Design-Contest/Winners.html). 
 
 
 ## Getting Started
@@ -37,7 +36,7 @@ For inquires on getting access to data, please visit the [Contest Website](https
 ### Peak Detection with Standard Deviation 
 The `factor` parameter scales the standard deviation of the waveform to obtain the peak detection value.
 It is defined by a simple equation `peak_detection_value = waveform.std() * 2.0`. Points in the waveform that are bigger than this value are recongized as peaks.
-The average number of peaks for different labels is shown:
+The average number of peaks for different labels are shown:
 ![viz_overall](figures/viz_overall.jpg)
 
 ### Peak Separation via Decision Boundary
@@ -50,7 +49,11 @@ The VT and SR are representative labels that comprise ~84% of the total data. Th
 Algorithmically, the first quadrant classifies VA while third quadrant classifies non-VA. The fourth quadrant is prone for misclassification. 
 
 ### Hyperparameter Tuning with Bayesian Search
+In order to maximize the `f_beta` score by tuning the `factor` and `threshold` parameters, we use bayesian search provided by [Weights & Biases Sweeps](https://docs.wandb.ai/guides/sweeps).
+
 ![bayesianSearch](figures/bayesianSearch.jpg)
 
 ## Results
+We evaluate our peak-based approach against CNN (1D convolution) baselines and find that a simple decision boundary approach can actually provide **better performance-efficiency tradeoffs**.
+
 ![DLvsDB](figures/DLvsDB.jpg)
