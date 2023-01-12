@@ -1,0 +1,6 @@
+C:/Users/HanLab/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/DSP/Source/ComplexMathFunctions/ComplexMathFunctionsF16.c:124:arm_cmplx_conj_f16	0	static
+C:/Users/HanLab/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/DSP/Source/ComplexMathFunctions/ComplexMathFunctionsF16.c:190:arm_cmplx_dot_prod_f16	8	static
+C:/Users/HanLab/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/DSP/Source/ComplexMathFunctions/ComplexMathFunctionsF16.c:171:arm_cmplx_mag_f16	16	static
+C:/Users/HanLab/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/DSP/Source/ComplexMathFunctions/ComplexMathFunctionsF16.c:106:arm_cmplx_mag_squared_f16	0	static
+C:/Users/HanLab/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/DSP/Source/ComplexMathFunctions/ComplexMathFunctionsF16.c:184:arm_cmplx_mult_cmplx_f16	0	static
+C:/Users/HanLab/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/DSP/Source/ComplexMathFunctions/ComplexMathFunctionsF16.c:123:arm_cmplx_mult_real_f16	0	static

@@ -1,0 +1,5 @@
+C:/Users/HanLab/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/DSP/Source/FastMathFunctions/FastMathFunctionsF16.c:38:arm_vexp_f16	16	static
+C:/Users/HanLab/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/DSP/Source/FastMathFunctions/FastMathFunctionsF16.c:75:logf16_scalar	16	static
+C:/Users/HanLab/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/DSP/Source/FastMathFunctions/FastMathFunctionsF16.c:173:arm_vlog_f16	16	static
+C:/Users/HanLab/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/DSP/Source/FastMathFunctions/FastMathFunctionsF16.c:37:arm_vinverse_f16	0	static
+C:/Users/HanLab/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/DSP/Source/FastMathFunctions/FastMathFunctionsF16.c:119:arm_atan2_f16	0	static

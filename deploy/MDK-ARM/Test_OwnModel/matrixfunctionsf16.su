@@ -1,0 +1,13 @@
+C:/Users/HanLab/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/DSP/Source/MatrixFunctions/MatrixFunctionsF16.c:128:arm_mat_add_f16	0	static
+C:/Users/HanLab/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/DSP/Source/MatrixFunctions/MatrixFunctionsF16.c:129:arm_mat_sub_f16	0	static
+C:/Users/HanLab/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/DSP/Source/MatrixFunctions/MatrixFunctionsF16.c:101:arm_mat_trans_f16	16	static
+C:/Users/HanLab/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/DSP/Source/MatrixFunctions/MatrixFunctionsF16.c:126:arm_mat_scale_f16	0	static
+C:/Users/HanLab/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/DSP/Source/MatrixFunctions/MatrixFunctionsF16.c:624:arm_mat_mult_f16	44	static
+C:/Users/HanLab/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/DSP/Source/MatrixFunctions/MatrixFunctionsF16.c:285:arm_mat_vec_mult_f16	40	static
+C:/Users/HanLab/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/DSP/Source/MatrixFunctions/MatrixFunctionsF16.c:63:arm_mat_cmplx_trans_f16	16	static
+C:/Users/HanLab/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/DSP/Source/MatrixFunctions/MatrixFunctionsF16.c:707:arm_mat_cmplx_mult_f16	48	static
+C:/Users/HanLab/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/DSP/Source/MatrixFunctions/MatrixFunctionsF16.c:553:arm_mat_inverse_f16	88	static
+C:/Users/HanLab/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/DSP/Source/MatrixFunctions/MatrixFunctionsF16.c:53:arm_mat_init_f16	0	static
+C:/Users/HanLab/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/DSP/Source/MatrixFunctions/MatrixFunctionsF16.c:183:arm_mat_cholesky_f16	64	static
+C:/Users/HanLab/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/DSP/Source/MatrixFunctions/MatrixFunctionsF16.c:153:arm_mat_solve_upper_triangular_f16	60	static
+C:/Users/HanLab/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/DSP/Source/MatrixFunctions/MatrixFunctionsF16.c:156:arm_mat_solve_lower_triangular_f16	52	static

@@ -1,0 +1,8 @@
+C:/Users/HanLab/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/DSP/Source/QuaternionMathFunctions/QuaternionMathFunctions.c:82:arm_quaternion_norm_f32	16	static
+C:/Users/HanLab/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/DSP/Source/QuaternionMathFunctions/QuaternionMathFunctions.c:89:arm_quaternion_inverse_f32	0	static
+C:/Users/HanLab/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/DSP/Source/QuaternionMathFunctions/QuaternionMathFunctions.c:80:arm_quaternion_conjugate_f32	0	static
+C:/Users/HanLab/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/DSP/Source/QuaternionMathFunctions/QuaternionMathFunctions.c:82:arm_quaternion_normalize_f32	16	static
+C:/Users/HanLab/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/DSP/Source/QuaternionMathFunctions/QuaternionMathFunctions.c:94:arm_quaternion_product_single_f32	0	static
+C:/Users/HanLab/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/DSP/Source/QuaternionMathFunctions/QuaternionMathFunctions.c:130:arm_quaternion_product_f32	24	static
+C:/Users/HanLab/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/DSP/Source/QuaternionMathFunctions/QuaternionMathFunctions.c:144:arm_quaternion2rotation_f32	0	static
+C:/Users/HanLab/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/DSP/Source/QuaternionMathFunctions/QuaternionMathFunctions.c:165:arm_rotation2quaternion_f32	32	static
